@@ -75,4 +75,4 @@ If you have any questions regarding requirements, do not hesitate to email your 
 
 ### Solution
 
-<img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/1.png?token=AkSsfWFR1aH00hP80NHTHBqIVAJ1X2dyks5cpOuXwA" width="200"/> <img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/2.png?token=AkSsfUKs8kzT2nvbTu2IOt_JRZDOs7Xjks5cpOvswA" width="200"/> <img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/3.png?token=AkSsfeQy5MjNuHqcARwc8NKgsv2QJ_Jfks5cpOwZwA" width="200"/> <img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/4.png?token=AkSsfd1TbmU-Ta-gLGoJwm3y9I3kxmqoks5cpOw7wA" width="200"/>
+<img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/1.png" width="200"/> <img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/2.png" width="200"/> <img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/3.png" width="200"/> <img src="https://raw.githubusercontent.com/cvbutani/NBATeamViewer/master/ui/4.png" width="200"/>
