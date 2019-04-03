@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Mark OOOOOO"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/player_number"
+        app:layout_constraintStart_toEndOf="@+id/player_number"
+        app:layout_constraintTop_toTopOf="@+id/player_number" />
+
+    <TextView
+        android:id="@+id/player_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/rubik"
+        android:text="30"
+        android:textColor="#2e3033"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/player_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player_name" />
+
+    <TextView
+        android:id="@+id/player_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="18"
+        android:textColor="#FF0266"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

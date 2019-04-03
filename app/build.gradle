@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion versions.compileSdk
+    defaultConfig {
+        applicationId "com.chirag.sonic"
+        minSdkVersion versions.minimumSdk
+        targetSdkVersion versions.targetSdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility versions.sourceCompat
+        targetCompatibility versions.targetCompat
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation deps.androidx.appCompat
+    implementation deps.androidx.constraintLayout
+    implementation deps.androidx.recyclerView
+    implementation deps.androidx.room
+    implementation deps.androidx.roomRxJava
+    implementation deps.rx.java
+    implementation deps.rx.android
+    implementation deps.square.retrofit
+    implementation deps.square.retrofitRxAdapter
+    implementation deps.square.gsonConverter
+    implementation deps.facebook.stetho
+
+    annotationProcessor deps.androidx.roomCompiler
+
+    testImplementation deps.androidx.junit
+    androidTestImplementation deps.androidx.testRunner
+    androidTestImplementation deps.androidx.espressoCore
+    androidTestImplementation deps.androidx.testRules
+}

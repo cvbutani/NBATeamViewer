@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/team_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/rubik_medium"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Toronto MapleLeaf" />
+
+    <TextView
+        android:id="@+id/team_wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/rubik_bold"
+        android:textColor="#FF0266"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/team_name"
+        app:layout_constraintEnd_toStartOf="@+id/team_looses"
+        app:layout_constraintTop_toTopOf="@+id/team_name"
+        tools:text="30" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_upward"
+        app:layout_constraintBottom_toBottomOf="@+id/team_wins"
+        app:layout_constraintEnd_toStartOf="@+id/team_wins" />
+
+    <TextView
+        android:id="@+id/team_looses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/rubik"
+        android:textColor="#FF0266"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/team_wins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/team_wins"
+        tools:text="18" />
+
+    <ImageView
+        android:id="@+id/down_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_downward"
+        app:layout_constraintBottom_toBottomOf="@+id/team_looses"
+        app:layout_constraintEnd_toStartOf="@+id/team_looses" />
+</androidx.constraintlayout.widget.ConstraintLayout>
